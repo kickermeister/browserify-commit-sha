@@ -1,7 +1,19 @@
-browserify-commit-sha
+commitify
 ============
 
 browserify transform for appending the latest git commit SHA
+
+Usage
+-----
+Simply add 'commitify' to your browserify transforms in your package.json
+{
+    "browserify": {
+        "transform": [
+            "commitify"
+        ]
+    }
+}
+
 
 The output looks like this:
 
