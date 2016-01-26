@@ -1,6 +1,6 @@
 var through = require('through')
 var git = require('git-rev-sync')
-var GIT_VERSION = git.short()
+var GIT_VERSION = git.short() + " " + git.tag()
 
 module.exports = function (bundle) {
   var stream = through(write, end)
