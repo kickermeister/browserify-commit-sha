@@ -6,6 +6,7 @@ browserify transform for appending the latest git commit SHA
 Usage
 -----
 Simply add 'commitify' to your browserify transforms in your package.json
+```js
 {
     "browserify": {
         "transform": [
@@ -13,7 +14,7 @@ Simply add 'commitify' to your browserify transforms in your package.json
         ]
     }
 }
-
+```
 
 The output looks like this:
 
