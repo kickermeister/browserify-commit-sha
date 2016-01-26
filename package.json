@@ -19,15 +19,19 @@
     },
     {
       "name": "deathcap"
+    },
+    {
+      "name": "kickermeister"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kumavis/browserify-commit-sha"
+    "url": "https://github.com/kickermeister/commitify"
   },
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "through": "^2.3.4"
+    "through": "^2.3.4",
+    "git-rev-sync": "^1.4.0"
   }
 }
